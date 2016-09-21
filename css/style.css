@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Spooky";
+  src: url(../assets/OctoberCrow.ttf) format("truetype");
+}
+
+body {
+  background: black;
+  color: orange;
+  font-family: "Spooky", sans-serif
+}
+
+
+nav {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+a {
+  font-size: 40px;
+  display: block;
+
+}
+ul {
+    list-style-type: none;
+    margin: 20;
+    padding: 30;
+    overflow: hidden;
+    background-color: FF6E26;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #FF6E26;
+    border-radius: 5px;
+}
+
